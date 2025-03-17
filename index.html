@@ -17,32 +17,59 @@
                 </ul>
             </nav>
         </header>
-        <h1>Selamat Datang</h1>
-   <div id="disqus_thread"></div>
+        <main>
+            <div class="content">
+                <h2>Selamat Datang!</h2>
+                <p>
+                Every name is called a <b>noun</b>,
+                    <br>
+                    As <b>field</b> and <b>fountain, street</b>, and <b>town</b>.
+                
+                    <br><br>
+                    In a place of noun the <b>pronoun</b> stands,
+                    <br>As <b>he</b> and <b>she</b> can clap their hands.
+
+                    <br><br>The <b>adjective</b> describes a thing,
+                    <br>As <b>magic</b> wand and <b>bridal ring</b>.
+
+                    <br><br>The <b>verb</b> means action, so something done -
+                    <br>To <b>read</b>, to <b>write</b>, to <b>jump</b>, to <b>run</b>.
+
+                    <br><br>How things are done, the <b>adverbs</b> tell,
+                    <br>As <b>quickly</b>, <b>slowly</b>, <b>badly</b>, <b>well</b>.
+
+                    <br><br>The <b>Preposition</b> shows relation,
+                    <br>As <b>in</b> the street, or <b>at</b> the station.
+
+                    <br><br><b>Conjunctions</b> join, in many ways,
+                    <br>Sentences, words, <b>or</b> phrase <b>and</b> phrase.
+
+                    <br><br>The <b>interjection</b> cries out, 'Hark!'
+                    <br>I need an exclamation mark!'
+
+                    <br><br>Through poetry, we learn how each 
+                    <br>Of these makes up the <b>Parts of Speech</b>.
+
+                
+                </p>
+            </div>
+        </main>
+
+
+
+
+
+<button onclick="loadDisqus()">Load Comments</button>
+<div id="disqus_thread"></div>
+
 <script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://teskomentar.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
+    function loadDisqus() {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://teskomentar.disqus.com/embed.js';  // Ganti dengan nama Disqus Anda
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    }
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-
-
-
-
-
 
 
 
@@ -50,6 +77,6 @@
         <footer>
             <p>&copy; 2025 Tes Website ECC. All rights reserved.</p>
         </footer>
-        
+        <script src="script.js"></script>
     </body>
     </html>
